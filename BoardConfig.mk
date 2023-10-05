@@ -9,6 +9,9 @@ include vendor/xiaomi/miuicamera-onyx/BoardConfigVendor.mk
 
 MIUICAMERA_PATH := device/xiaomi/miuicamera-onyx
 
+# Camera
+TARGET_USES_MIUI_CAMERA := true
+
 # Properties
 TARGET_SYSTEM_PROP += $(MIUICAMERA_PATH)/system.prop
 
